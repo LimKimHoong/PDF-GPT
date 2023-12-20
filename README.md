@@ -48,7 +48,17 @@ installing the requirements for the project :
 `pip install Flask Flask_Cors langchain openai pdf2image chromadb pypdf tiktoken`
 
 ## API Connect
-In `worker.py`, initialize OpenAI’s HTTP request library using your own API key that you set up earlier (or get one from here) by replacing `api_key="YOUR API KEY"` with your API key.
+In `worker.py`, initialize OpenAI’s HTTP request library using your own API key that you set up earlier (or get one from here) by replacing `api_key="YOUR API KEY"` with your API key. Save and close the file.
+
+## Run the web-app
+To quickly run the chatbot, we need to run the `server.py` file, by the following code in the terminal: 
+
+`python3 server.py`
+
+Then, open the browser and copy the running url (Ex: `http://127.0.0.1:8000` ). 
+
+## Stop the web-app 
+Once you’ve had a chance to run and play around with the application, please press `Crtl` (a.k.a. control (^) for Mac) and `C` at the same time to stop the container and continue the project (as it is also mentioned in terminal).
 
 ## Contributing
 Welcome any and all contributions! Here are some ways you can get started:
