@@ -1,7 +1,7 @@
 ![Forks](https://img.shields.io/badge/forks-0-blue)
 ![Stars](https://img.shields.io/badge/stars-0-yellow)
 
-# ToDo-list
+# PDF-GPT
 
 ## Description
 In this project, I created a chatbot for our own pdf file using Flask, a popular web framework, and the Langchain, another popular framework for working wtih Large Language Models (LLMs). The developed chatbot will not just interact with users via text but also comprehend and answer questions related to the content of a specific document (PDF).
