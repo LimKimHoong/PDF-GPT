@@ -30,9 +30,9 @@ GitPython and its required package dependencies can be installed as below:
 
 `pip3 install virtualenv`
 
-`virtualenv my_env` # create a virtual environment my_env
+`virtualenv my_env` 
 
-`source my_env/bin/activate` # activate my_env
+`source my_env/bin/activate`
 
 
 Run the following commands to receive the project, and rename it to proper name, and finally move into that directory by running followings:
