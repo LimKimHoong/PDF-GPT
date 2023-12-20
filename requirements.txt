@@ -6,3 +6,4 @@ pdf2image
 tiktoken
 chromadb
 pypdf
+web: python3 server.py
