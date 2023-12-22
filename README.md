@@ -12,7 +12,7 @@ PDF-GPT uses the following technologies:
 - Langchain
 - HTML - CSS - Javascript
 
-### Requirements
+## Requirements
 GitPython needs the `git` executable to be installed on the system and available in your `PATH` for most operations.
 If it is not in your `PATH`, you can help GitPython find it by setting
 the `GIT_PYTHON_GIT_EXECUTABLE=<path/to/git>` environment variable.
@@ -48,7 +48,7 @@ installing the requirements for the project :
 `pip install Flask Flask_Cors langchain openai pdf2image chromadb pypdf tiktoken`
 
 ## API Connect
-In `worker.py`, initialize OpenAI’s HTTP request library using your own API key that you set up earlier (or get one from here) by replacing `api_key="YOUR API KEY"` with your API key. Save and close the file.
+In `worker.py`, initialize OpenAI’s HTTP request library using your own API key that you set up earlier by replacing `api_key="YOUR API KEY"` with your API key. Save and close the file.
 
 ## Run the web-app
 To quickly run the chatbot, we need to run the `server.py` file, by the following code in the terminal: 
