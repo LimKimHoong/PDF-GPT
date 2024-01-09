@@ -1,9 +1,7 @@
-![Forks](https://img.shields.io/badge/forks-0-blue)
-![Stars](https://img.shields.io/badge/stars-0-yellow)
-
-# PDF-GPT
-
 ## 📝 Description
+
+<img src="./static/intro.gif" alt="banner">
+
 In this project, a chatbot has been created for any pdf file using Flask, a popular web framework, and the Langchain, another popular framework for working wtih Large Language Models (LLMs). The developed chatbot will not just interact with users via text but also comprehend and answer questions related to the content of a specific document (PDF). The web-app is user-friendly in which simply upload a PDF file that you wish to analyse and summarize. Thus, we can ask any related question in the designated chatbox. 
 
 ## 💻 Tech Stack
